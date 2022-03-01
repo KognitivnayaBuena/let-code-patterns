@@ -1,11 +1,8 @@
+import { ListNode } from "../types";
+
 // Floyd's Cycle Finding Algorithm
 // Time complexity O(n)
 // Space complexity equals O(1)
-
-type ListNode = {
-  val: number;
-  next: ListNode | null;
-};
 
 function hasCycle(head: ListNode | null): boolean {
   if (!head) {
